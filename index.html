@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+    <title>Notas de estudiantes</title>
+  </head>
+
+  <body>
+    <div id="contenido">
+
+      <!--ENCABEZADO-->
+      <header>
+        <div>
+          <h1>Nota de Estudiantes</h1>
+        </div>
+        <div id="menu">
+          <nav>
+            <a href="#" id="btn_mayor">Mayor Nota</a>
+            <a href="#" id="btn_menor">Menor Nota</a>
+            <a href="#" id="btn_promedio">Promedio</a>
+          </nav>
+        </div>
+      </header>
+      <!--Fin del Encabezado-->
+
+      <!--CUERPO DE LA PAGINA-->
+      <section id="tabla_sec">
+        <h3>Listado de estudiantes</h3>
+        <table id="tabla">
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Nota</th>
+              </tr>
+            </table>
+            <br>
+      </section>
+
+      <section id="registro">
+        <div>
+          <h3>Registro de estudiante</h3>
+          </div>
+        <br>
+        <ul>
+          <li>
+            <p>Codigo del estudiante</p>
+            <input type="text" id="inCodigo"/>
+          </li>
+          <li>
+            <p>Nombre del estudiante</p>
+            <input type="text" id="inNombre">
+          </li>
+          <li>
+            <p>Nota del estudiante</p>
+            <input type="text" id="inNota">
+          </li>
+        </ul>
+        <button id="btnRegistrar">Registrar</button>
+      </section>
+      <!--Fin del cuerpo de la pagina-->
+
+      <!--PIE DE PAGINA-->
+      <footer>
+        <div class="footer">
+           <div>
+             <h4>Contacto</h4>
+             <ul>
+               <li>Email: <a href="mailto:magmado@gmail.com">magmado@gmail.com</a></li>
+               <li>Calle Manzana A No. 3, Sto. Dgo. Este</li>
+               <li>Telefono: 809-555-5555</li>
+             </ul>
+           </div>
+
+           <div>
+             <h4>Términos</h4>
+             <a href="#" onclick="return confirm('Este sitio se encuentra en mantenimiento')">Nuestros Terminos y Condiciones de uso</a>
+           </div>
+
+           <div>
+             <h4>Nuestras Redes Sociales</h4>
+             <ul>
+               <li><a href="#">Facebook</a></li>
+               <li><a href="#">Telegram</a></li>
+             </ul>
+           </div>
+
+       </div>
+     </footer>
+     <!--Fin del pie de pagina-->
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+</html>
